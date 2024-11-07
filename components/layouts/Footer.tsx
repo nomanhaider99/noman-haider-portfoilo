@@ -1,7 +1,8 @@
 import React from 'react'
-import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa'
+import { FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa'
 import { FaThreads, FaUpwork } from 'react-icons/fa6'
 import Logo from '../ui/Logo'
+import Link from 'next/link'
 
 const Footer = () => {
   return (
@@ -16,10 +17,10 @@ const Footer = () => {
         </div>
         {/* Socials */}
         <div className='grid grid-cols-2 gap-5'>
-            <FaLinkedin size={35} color='#fff' className='cursor-pointer' />
-            <FaTwitter size={35} color='#fff' className='cursor-pointer' />
-            <FaThreads size={35} color='#fff' className='cursor-pointer' />
-            <FaUpwork size={35} color='#fff' className='cursor-pointer' />
+            <Link href={"https://www.linkedin.com/in/nomanhaider99/"}><FaLinkedin size={35} color='#fff' className='cursor-pointer' /></Link>
+            <Link href={"https://github.com/nomanhaider99"}><FaGithub size={35} color='#fff' className='cursor-pointer' /></Link>
+            <Link href={"https://www.threads.net/@noman.haider99"}><FaThreads size={35} color='#fff' className='cursor-pointer' /></Link>
+            <Link href={"https://www.upwork.com/freelancers/~01f5e655a4979b3856"}><FaUpwork size={35} color='#fff' className='cursor-pointer' /></Link>
         </div>
     </div>
   )

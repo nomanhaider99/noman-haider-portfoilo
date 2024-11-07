@@ -35,28 +35,12 @@ export const skillsData = [
         icon: <FaGithub size={25} color="#fff" />
     },
     {
-        title: 'Angular',
-        icon: <FaAngular size={25} color="#fff" />
-    },
-    {
         title: 'Python',
         icon: <FaPython size={25} color="#fff" />
     },
     {
-        title: 'Java',
-        icon: <FaJava size={25} color="#fff" />
-    },
-    {
         title: 'Bootstrap',
         icon: <FaBootstrap size={25} color="#fff" />
-    },
-    {
-        title: 'Sass',
-        icon: <FaSass size={25} color="#fff" />
-    },
-    {
-        title: 'Docker',
-        icon: <FaDocker size={25} color="#fff" />
     },
     {
         title: 'Figma',

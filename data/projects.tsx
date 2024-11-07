@@ -7,18 +7,8 @@ export const projectsData = [
         icon: <FaAirbnb size={70} color="#fff" />
     },
     {
-        title: 'YouTube Clone in Next.js',
-        description: 'Built a YouTube clone with Next.js, enabling video uploads, streaming, and interactive user engagement features.',
+        title: 'Car Wash Bussiness Website',
+        description: 'I built a car wash business website using Next.js, offering a responsive and user-friendly interface for booking services and contacting the business. The site is optimized for fast performance and seamless navigation across all devices.',
         icon: <FaYoutube size={70} color="#fff" />
     },
-    {
-        title: 'Facebook Clone in Next.js',
-        description: 'Created a Facebook clone using Next.js, incorporating social networking features like posts, comments, and real-time notifications.',
-        icon: <FaFacebook size={70} color="#fff" />
-    },
-    {
-        title: 'Twitter Clone in Next.js',
-        description: 'Developed a Twitter clone with Next.js, featuring real-time tweeting, user following, and live feed updates.',
-        icon: <FaTwitter size={70} color="#fff" />
-    }
 ];

@@ -8,7 +8,7 @@ const Skills = () => {
          {/* Heading */}
          <div className='md:text-5xl text-4xl text-center font-extrabold text-white tracking-tight'>Technologies <span className='text-yellow-500'>&</span> Frameworks</div>
         {/* Skills */}
-        <div className='grid grid-cols-2 lg:grid-cols-8 gap-8 md:gap-4'>
+        <div className='grid grid-cols-2 lg:grid-cols-6 gap-8 md:gap-4'>
           {
             skillsData.map((skill, index) => (
               <SkillCard

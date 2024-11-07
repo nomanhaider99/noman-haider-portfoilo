@@ -1,7 +1,7 @@
 'use client'
 import React from 'react'
 import SocialIcon from '../ui/SocialIcon'
-import { FaLinkedin, FaTwitter } from 'react-icons/fa'
+import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
 import { FaThreads, FaUpwork } from 'react-icons/fa6'
 
 const Social = () => {
@@ -10,12 +10,12 @@ const Social = () => {
         <SocialIcon
           icon={(<FaLinkedin color='#0a66c2' size={80}/>)}
           title='LinkedIn'
-          href='https://www.linkedin.com/in/noman-haider-119240294/'
+          href='https://www.linkedin.com/in/nomanhaider99/'
          />
         <SocialIcon
           icon={(<FaThreads color='#fff' size={80}/>)}
           title='Threads'
-          href='https://www.threads.net/'
+          href='https://www.threads.net/@noman.haider99'
          />
          <SocialIcon
           icon={(<FaUpwork color='#108a00' size={80}/>)}
@@ -23,9 +23,9 @@ const Social = () => {
           href='https://www.upwork.com/freelancers/~01f5e655a4979b3856'
          />
          <SocialIcon
-          icon={(<FaTwitter color='#0a66c2' size={80}/>)}
-          title='Twitter'
-          href='https://twitter.com'
+          icon={(<FaGithub color='#fff' size={80}/>)}
+          title='Github'
+          href='https://github.com/nomanhaider99'
          />
          <SocialIcon
           icon={(<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48">
